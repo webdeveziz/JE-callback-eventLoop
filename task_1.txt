@@ -1,0 +1,22 @@
+setTimeout(() => {
+ console.log('setTimeout');
+}, 0);
+ 
+const promise = new Promise((resolve) => {
+ console.log('Promise');
+ resolve();
+});
+ 
+promise.then(() => {
+ console.log('Promise resolve');
+});
+ 
+console.log('End');
+
+
+Последовательность вывода:
+
+1) 'Promise'
+2) 'End'
+3) 'Promise resolve'
+4) 'setTimeout'

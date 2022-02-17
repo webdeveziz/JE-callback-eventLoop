@@ -1,0 +1,11 @@
+
+
+
+Последовательность вывода:
+
+1) 'End'
+2) 'Success'
+3) 'user received'
+4) 'in promise'
+5) 'last set timeout'
+6) 'promise resolved'
